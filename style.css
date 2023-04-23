@@ -1,0 +1,98 @@
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #000;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#restart {
+	margin-top: 5px;
+	width: 154px;
+	padding: 5px;
+}
+
+#line {
+	background-color: green;
+	position: absolute;
+	opacity: 0.7;
+	display: none;
+}
+
+.horizontal {
+	width: 154px;
+	height: 3px;
+	left: 0;
+	display: block !important;
+}
+
+.vertical {
+	width: 3px;
+	height: 154px;
+	top: 0;
+	display: block !important;
+}
+
+.diagonal {
+	width: 3px;
+	height: 217px;
+	top: -31px;
+	left: 76px;
+	display: block !important;
+}
+
+.primary {
+	transform: rotate(-45deg);
+}
+
+.secondary {
+	transform: rotate(45deg);
+}
+
+.h1 {
+	top: 23px;
+}
+
+.h2 {
+	top: 75px;
+}
+
+.h3 {
+	top: 126px;
+}
+
+.v1 {
+	left: 25px;
+}
+
+.v2 {
+	left: 75px;
+}
+
+.v3 {
+	left: 127px;
+}
+
+#tie {
+	position: absolute;
+	top: calc(50% - 14px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+	font-size: 100px;
+	display: none;
+}
